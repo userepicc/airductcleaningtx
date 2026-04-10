@@ -1,0 +1,38 @@
+# Netlify Configuration for Air Duct Cleaning TX
+# Static HTML site — no build command needed
+
+[build]
+  publish = "."
+
+# Redirect www to non-www
+[[redirects]]
+  from = "https://www.airductcleaningtx.netlify.app/*"
+  to = "https://airductcleaningtx.netlify.app/:splat"
+  status = 301
+  force = true
+
+# Custom 404
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404
+
+# Security Headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Cache static assets
+[[headers]]
+  for = "/style.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"

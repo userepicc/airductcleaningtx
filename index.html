@@ -1,127 +1,589 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Air Duct Cleaning TX | Professional HVAC Services</title>
-    <style>
-        :root {
-            --primary: #0056b3;
-            --secondary: #28a745;
-            --dark: #333;
-            --light: #f4f4f4;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Air Duct Cleaning TX — Professional HVAC & Air Duct Cleaning Services Across Texas</title>
+  <meta name="description" content="Texas's trusted air duct cleaning experts. NADCA-certified technicians improving indoor air quality across Dallas, Houston, Austin, San Antonio & more. Licensed, insured, 15+ years of experience.">
+  <meta name="keywords" content="air duct cleaning Texas, HVAC cleaning, indoor air quality, dryer vent cleaning, duct sanitization, NADCA certified, allergen reduction, air quality testing">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://airductcleaningtx.netlify.app/">
+  <meta property="og:title" content="Air Duct Cleaning TX — Professional HVAC Cleaning Services">
+  <meta property="og:description" content="Breathe cleaner air. Texas's #1 rated air duct cleaning service with NADCA-certified technicians.">
+  <meta property="og:url" content="https://airductcleaningtx.netlify.app/">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Schema.org LocalBusiness JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://airductcleaningtx.netlify.app/#business",
+    "name": "Air Duct Cleaning TX",
+    "description": "Professional air duct cleaning, dryer vent cleaning, and HVAC maintenance services across Texas. NADCA-certified technicians with 15+ years of experience improving indoor air quality.",
+    "url": "https://airductcleaningtx.netlify.app",
+    "telephone": "+1-800-555-DUCT",
+    "email": "info@airductcleaningtx.com",
+    "image": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=1200",
+    "priceRange": "$$",
+    "currenciesAccepted": "USD",
+    "paymentAccepted": "Cash, Credit Card, Check",
+    "areaServed": [
+      {"@type": "State", "name": "Texas", "sameAs": "https://en.wikipedia.org/wiki/Texas"},
+      {"@type": "City", "name": "Dallas"},
+      {"@type": "City", "name": "Houston"},
+      {"@type": "City", "name": "Austin"},
+      {"@type": "City", "name": "San Antonio"},
+      {"@type": "City", "name": "Fort Worth"},
+      {"@type": "City", "name": "Arlington"},
+      {"@type": "City", "name": "Plano"},
+      {"@type": "City", "name": "The Woodlands"},
+      {"@type": "City", "name": "Sugar Land"},
+      {"@type": "City", "name": "Katy"}
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressRegion": "TX",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "31.9686",
+      "longitude": "-99.9018"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "07:00",
+        "closes": "19:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "08:00",
+        "closes": "17:00"
+      }
+    ],
+    "sameAs": [],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Air Duct Cleaning Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Air Duct Cleaning",
+            "description": "Complete residential and commercial air duct cleaning using HEPA filtration and negative-pressure systems."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Dryer Vent Cleaning",
+            "description": "Professional dryer vent cleaning to prevent fire hazards and improve energy efficiency."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "UV Light Installation",
+            "description": "Germicidal UV-C light installation for HVAC systems to eliminate microbial growth and allergens."
+          }
         }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            color: var(--dark);
-        }
-
-        header {
-            background: #fff;
-            padding: 1rem 5%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        .logo { font-weight: bold; font-size: 1.5rem; color: var(--primary); }
-
-        nav a { margin-left: 20px; text-decoration: none; color: var(--dark); font-weight: 500; }
-        nav a:hover { color: var(--primary); }
-
-        .hero {
-            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1581094288338-2314dddb7bc3?auto=format&fit=crop&q=80&w=1200');
-            background-size: cover;
-            color: white;
-            padding: 100px 5%;
-            text-align: center;
-        }
-
-        .cta-button {
-            background: var(--secondary);
-            color: white;
-            padding: 12px 30px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            display: inline-block;
-            margin-top: 20px;
-        }
-
-        section { padding: 50px 5%; }
-
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
-
-        .card { background: var(--light); padding: 20px; border-radius: 8px; text-align: center; }
-
-        footer { background: var(--dark); color: white; padding: 40px 5%; margin-top: 50px; }
-
-        .legal-links a { color: #ccc; margin-right: 15px; font-size: 0.9rem; text-decoration: none; }
-        .legal-links a:hover { color: #fff; }
-    </style>
+      ]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "2847",
+      "bestRating": "5"
+    }
+  }
+  </script>
 </head>
 <body>
 
-    <header>
-        <div class="logo">Air Duct Cleaning TX</div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="services.html">Services</a>
-            <a href="about.html">About Us</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+  <!-- ========== HEADER ========== -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Air Duct Cleaning TX Home">
+        <div class="logo-icon">🌬️</div>
+        Air Duct Cleaning <span>TX</span>
+      </a>
 
-    <main>
-        <section class="hero">
-            <h1>Breathe Cleaner Air in Texas</h1>
-            <p>Professional air duct and dryer vent cleaning for a healthier home.</p>
-            <a href="contact.html" class="cta-button">Get a Free Quote</a>
-        </section>
-
-        <section id="services">
-            <h2 style="text-align:center">Our Expert Services</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>Air Duct Cleaning</h3>
-                    <p>Removing dust, allergens, and debris from your HVAC system.</p>
-                </div>
-                <div class="card">
-                    <h3>Dryer Vent Cleaning</h3>
-                    <p>Reducing fire hazards and improving dryer efficiency.</p>
-                </div>
-                <div class="card">
-                    <h3>UV Light Installation</h3>
-                    <p>Eliminating bacteria and mold spores in your air stream.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="grid">
-            <div>
-                <h4>Air Duct Cleaning TX</h4>
-                <p>Serving the heart of Texas with quality HVAC maintenance.</p>
-            </div>
-            <div>
-                <h4>Quick Links</h4>
-                <p class="legal-links">
-                    <a href="privacy.html">Privacy Policy</a>
-                    <a href="terms.html">Terms of Service</a>
-                </p>
-            </div>
+      <nav class="main-nav" id="main-nav" role="navigation" aria-label="Primary Navigation">
+        <div class="nav-item">
+          <a href="index.html" class="nav-link active">Home</a>
         </div>
-        <hr style="border: 0; border-top: 1px solid #555; margin: 20px 0;">
-        <p style="text-align: center; font-size: 0.8rem;">&copy; 2026 Air Duct Cleaning TX. All Rights Reserved.</p>
-    </footer>
+        <div class="nav-item">
+          <a href="services.html" class="nav-link">Services <span class="arrow">▼</span></a>
+          <div class="dropdown" id="dropdown-services">
+            <a href="services.html" class="dropdown-link"><span class="icon">📋</span> All Services</a>
+            <a href="air-duct-cleaning.html" class="dropdown-link"><span class="icon">🌀</span> Air Duct Cleaning</a>
+            <a href="dryer-vent-cleaning.html" class="dropdown-link"><span class="icon">🔥</span> Dryer Vent Cleaning</a>
+            <a href="uv-light-installation.html" class="dropdown-link"><span class="icon">💡</span> UV Light Installation</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="#" class="nav-link">Locations <span class="arrow">▼</span></a>
+          <div class="dropdown" id="dropdown-locations">
+            <a href="dallas.html" class="dropdown-link"><span class="icon">📍</span> Dallas</a>
+            <a href="houston.html" class="dropdown-link"><span class="icon">📍</span> Houston</a>
+            <a href="austin.html" class="dropdown-link"><span class="icon">📍</span> Austin</a>
+            <a href="san-antonio.html" class="dropdown-link"><span class="icon">📍</span> San Antonio</a>
+            <a href="fort-worth.html" class="dropdown-link"><span class="icon">📍</span> Fort Worth</a>
+            <a href="arlington.html" class="dropdown-link"><span class="icon">📍</span> Arlington</a>
+            <a href="plano.html" class="dropdown-link"><span class="icon">📍</span> Plano</a>
+            <a href="the-woodlands.html" class="dropdown-link"><span class="icon">📍</span> The Woodlands</a>
+            <a href="sugar-land.html" class="dropdown-link"><span class="icon">📍</span> Sugar Land</a>
+            <a href="katy.html" class="dropdown-link"><span class="icon">📍</span> Katy</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="about.html" class="nav-link">About</a>
+        </div>
+        <div class="nav-item">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+        <div class="nav-item">
+          <a href="blog.html" class="nav-link">Blog</a>
+        </div>
+      </nav>
+
+      <div class="header-cta">
+        <a href="tel:+18005553828" class="header-phone">📞 (800) 555-DUCT</a>
+        <a href="contact.html" class="btn btn-primary btn-sm">Free Quote</a>
+      </div>
+
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=1920&q=80');"></div>
+    <div class="container">
+      <div class="hero-content animate-fade-up">
+        <div class="hero-badge">✅ NADCA-Certified Technicians</div>
+        <h1>Breathe Cleaner, <span class="highlight">Healthier Air</span> Across Texas</h1>
+        <p class="hero-text">Professional air duct cleaning services that reduce allergens, eliminate microbial growth, and improve your indoor air quality. Serving Dallas, Houston, Austin, San Antonio, and communities statewide with HEPA-filtration technology.</p>
+        <div class="hero-actions">
+          <a href="contact.html" class="btn btn-primary btn-lg">Get Your Free Estimate</a>
+          <a href="services.html" class="btn btn-outline-white btn-lg">Our Services</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="number">15+</span>
+            <span class="label">Years Experience</span>
+          </div>
+          <div class="hero-stat">
+            <span class="number">50K+</span>
+            <span class="label">Homes Cleaned</span>
+          </div>
+          <div class="hero-stat">
+            <span class="number">4.9★</span>
+            <span class="label">Customer Rating</span>
+          </div>
+          <div class="hero-stat">
+            <span class="number">100%</span>
+            <span class="label">Satisfaction</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TRUST BAR ========== -->
+  <div class="trust-bar">
+    <div class="container-wide">
+      <div class="trust-bar-inner">
+        <div class="trust-item"><span class="icon">🛡️</span> Licensed &amp; Insured</div>
+        <div class="trust-item"><span class="icon">🏅</span> NADCA Certified</div>
+        <div class="trust-item"><span class="icon">👨‍🔧</span> Certified Technicians</div>
+        <div class="trust-item"><span class="icon">✅</span> Satisfaction Guarantee</div>
+        <div class="trust-item"><span class="icon">🕐</span> Same-Day Service Available</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== SERVICES OVERVIEW ========== -->
+  <section class="section" id="services-overview">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Our Services</span>
+        <h2 class="section-title">Comprehensive Air Quality Solutions</h2>
+        <p class="section-subtitle">From air duct cleaning to UV germicidal light installation, we provide complete indoor air quality services that meet NADCA standards and exceed expectations.</p>
+      </div>
+      <div class="cards-grid">
+        <div class="card animate-fade-up animate-delay-1">
+          <div class="card-icon"><span>🌀</span></div>
+          <h3>Air Duct Cleaning</h3>
+          <p>Complete duct system cleaning using negative-pressure and HEPA filtration technology to remove dust, particulate matter, and allergens from your HVAC system.</p>
+          <a href="air-duct-cleaning.html" class="card-link">Learn More →</a>
+        </div>
+        <div class="card animate-fade-up animate-delay-2">
+          <div class="card-icon"><span>🔥</span></div>
+          <h3>Dryer Vent Cleaning</h3>
+          <p>Prevent fire hazards and improve dryer efficiency with our professional dryer vent cleaning service. We clear lint buildup and inspect the entire ventilation pathway.</p>
+          <a href="dryer-vent-cleaning.html" class="card-link">Learn More →</a>
+        </div>
+        <div class="card animate-fade-up animate-delay-3">
+          <div class="card-icon"><span>💡</span></div>
+          <h3>UV Light Installation</h3>
+          <p>Germicidal UV-C light systems installed inside your HVAC unit to continuously neutralize bacteria, mold spores, and microbial growth for year-round allergen reduction.</p>
+          <a href="uv-light-installation.html" class="card-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== AUTHORITY SECTION ========== -->
+  <section class="section section-alt" id="why-texas">
+    <div class="container">
+      <div class="authority-grid">
+        <div class="authority-image animate-fade-up">
+          <img src="https://images.unsplash.com/photo-1631545806609-35dab5deed4e?auto=format&fit=crop&w=800&q=80" alt="HVAC technician performing professional air duct cleaning in a Texas home" width="800" height="500" loading="lazy">
+          <div class="badge">🏆 15+ Years in Texas</div>
+        </div>
+        <div class="animate-fade-up animate-delay-2">
+          <span class="section-label">Why It Matters</span>
+          <h2 class="section-title">Why Air Duct Cleaning Is Essential in the Texas Climate</h2>
+          <p>Texas homeowners face unique indoor air quality (IAQ) challenges. With extreme summer heat driving HVAC systems to run 8–12 hours daily, combined with high humidity levels that foster microbial growth and elevated pollen counts, your ductwork becomes a reservoir for allergens and contaminants.</p>
+          <p>The EPA estimates that indoor air can be <strong>2 to 5 times more polluted</strong> than outdoor air. In the Texas climate, where homes remain sealed for months during summer, regular duct cleaning isn't a luxury—it's a necessity for allergen reduction and healthy living.</p>
+          <div class="authority-list">
+            <div class="authority-item">
+              <div class="icon-box">🛡️</div>
+              <div>
+                <h4>Licensed &amp; Insured</h4>
+                <p>Fully licensed, bonded, and insured for your complete peace of mind on every job.</p>
+              </div>
+            </div>
+            <div class="authority-item">
+              <div class="icon-box">🎓</div>
+              <div>
+                <h4>Certified Technicians</h4>
+                <p>Every technician is NADCA-certified and trained in the latest HEPA filtration and IAQ protocols.</p>
+              </div>
+            </div>
+            <div class="authority-item">
+              <div class="icon-box">🤝</div>
+              <div>
+                <h4>Satisfaction Guarantee</h4>
+                <p>100% satisfaction guarantee on every service. If you're not happy, we return and make it right—free of charge.</p>
+              </div>
+            </div>
+            <div class="authority-item">
+              <div class="icon-box">🏅</div>
+              <div>
+                <h4>15+ Years of Texas Experience</h4>
+                <p>Over 50,000 Texas homes and businesses serviced. We understand the unique IAQ challenges of every region.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROCESS ========== -->
+  <section class="section" id="our-process">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">How It Works</span>
+        <h2 class="section-title">Our Proven 4-Step Process</h2>
+        <p class="section-subtitle">We follow NADCA standards and use state-of-the-art equipment to deliver thorough, reliable air duct cleaning every time.</p>
+      </div>
+      <div class="process-steps">
+        <div class="step-card">
+          <h4>Free Inspection</h4>
+          <p>We assess your HVAC system, check for microbial growth, and provide a transparent, no-obligation quote.</p>
+        </div>
+        <div class="step-card">
+          <h4>HEPA-Powered Cleaning</h4>
+          <p>Our NADCA-certified team uses negative-pressure and HEPA filtration to remove all particulate matter from your ducts.</p>
+        </div>
+        <div class="step-card">
+          <h4>Sanitize &amp; Protect</h4>
+          <p>We apply EPA-registered antimicrobial treatments to prevent future microbial growth and improve IAQ.</p>
+        </div>
+        <div class="step-card">
+          <h4>Final Walkthrough</h4>
+          <p>We perform before-and-after photo documentation and a final walkthrough so you can see the difference.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICE AREAS ========== -->
+  <section class="section section-alt" id="service-areas">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Service Areas</span>
+        <h2 class="section-title">Serving Communities Across Texas</h2>
+        <p class="section-subtitle">From the Dallas-Fort Worth Metroplex to the Greater Houston Area, we bring professional indoor air quality services to your neighborhood.</p>
+      </div>
+      <div class="cards-grid cards-grid-4">
+        <a href="dallas.html" class="card" style="text-align:center;">
+          <div class="card-icon" style="margin:0 auto var(--space-md);"><span>📍</span></div>
+          <h4>Dallas</h4>
+          <p style="font-size:0.88rem;">DFW Metroplex</p>
+        </a>
+        <a href="houston.html" class="card" style="text-align:center;">
+          <div class="card-icon" style="margin:0 auto var(--space-md);"><span>📍</span></div>
+          <h4>Houston</h4>
+          <p style="font-size:0.88rem;">Greater Houston</p>
+        </a>
+        <a href="austin.html" class="card" style="text-align:center;">
+          <div class="card-icon" style="margin:0 auto var(--space-md);"><span>📍</span></div>
+          <h4>Austin</h4>
+          <p style="font-size:0.88rem;">Central Texas</p>
+        </a>
+        <a href="san-antonio.html" class="card" style="text-align:center;">
+          <div class="card-icon" style="margin:0 auto var(--space-md);"><span>📍</span></div>
+          <h4>San Antonio</h4>
+          <p style="font-size:0.88rem;">South Central TX</p>
+        </a>
+        <a href="fort-worth.html" class="card" style="text-align:center;">
+          <div class="card-icon" style="margin:0 auto var(--space-md);"><span>📍</span></div>
+          <h4>Fort Worth</h4>
+          <p style="font-size:0.88rem;">Tarrant County</p>
+        </a>
+        <a href="arlington.html" class="card" style="text-align:center;">
+          <div class="card-icon" style="margin:0 auto var(--space-md);"><span>📍</span></div>
+          <h4>Arlington</h4>
+          <p style="font-size:0.88rem;">Mid-Cities</p>
+        </a>
+        <a href="plano.html" class="card" style="text-align:center;">
+          <div class="card-icon" style="margin:0 auto var(--space-md);"><span>📍</span></div>
+          <h4>Plano</h4>
+          <p style="font-size:0.88rem;">Collin County</p>
+        </a>
+        <a href="the-woodlands.html" class="card" style="text-align:center;">
+          <div class="card-icon" style="margin:0 auto var(--space-md);"><span>📍</span></div>
+          <h4>The Woodlands</h4>
+          <p style="font-size:0.88rem;">Montgomery County</p>
+        </a>
+        <a href="sugar-land.html" class="card" style="text-align:center;">
+          <div class="card-icon" style="margin:0 auto var(--space-md);"><span>📍</span></div>
+          <h4>Sugar Land</h4>
+          <p style="font-size:0.88rem;">Fort Bend County</p>
+        </a>
+        <a href="katy.html" class="card" style="text-align:center;">
+          <div class="card-icon" style="margin:0 auto var(--space-md);"><span>📍</span></div>
+          <h4>Katy</h4>
+          <p style="font-size:0.88rem;">West Houston</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Testimonials</span>
+        <h2 class="section-title">What Texas Homeowners Say</h2>
+        <p class="section-subtitle">Thousands of families trust us to keep their indoor air clean and healthy. Here's what they have to say.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Our allergies have improved dramatically since Air Duct Cleaning TX cleaned our entire HVAC system. The technician was NADCA-certified, on time, and incredibly thorough. Highly recommend for anyone in the Dallas area!"</blockquote>
+          <div class="testimonial-author">
+            <div class="avatar">JM</div>
+            <div>
+              <div class="name">Jennifer M.</div>
+              <div class="location">Dallas, TX</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"With Houston's humidity, mold in the ducts was a real concern. These guys used HEPA filtration equipment and even showed me before-and-after photos. Night and day difference in our indoor air quality!"</blockquote>
+          <div class="testimonial-author">
+            <div class="avatar">RC</div>
+            <div>
+              <div class="name">Robert C.</div>
+              <div class="location">Houston, TX</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <blockquote>"I had UV lights installed in my HVAC unit and the dryer vent cleaned. Energy bill dropped noticeably and the house smells so much fresher. 15 years of experience really shows!"</blockquote>
+          <div class="testimonial-author">
+            <div class="avatar">SP</div>
+            <div>
+              <div class="name">Sarah P.</div>
+              <div class="location">Austin, TX</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-banner">
+        <h2>Ready to Breathe Cleaner Air?</h2>
+        <p>Schedule your free, no-obligation duct inspection today. Our NADCA-certified team will assess your system and provide a transparent quote.</p>
+        <a href="contact.html" class="btn btn-primary btn-lg">Schedule Free Inspection</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BLOG PREVIEW ========== -->
+  <section class="section section-alt" id="blog-preview">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Expert Resources</span>
+        <h2 class="section-title">Indoor Air Quality Insights</h2>
+        <p class="section-subtitle">Stay informed with expert tips on HVAC maintenance, allergen reduction, and keeping your Texas home's air clean.</p>
+      </div>
+      <div class="cards-grid">
+        <div class="blog-card">
+          <div class="blog-card-image">
+            <img src="https://images.unsplash.com/photo-1631545806609-35dab5deed4e?auto=format&fit=crop&w=600&q=80" alt="Family enjoying clean indoor air after professional duct cleaning" width="600" height="400" loading="lazy">
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-card-meta">
+              <span class="tag">Health</span>
+              <span>March 15, 2026</span>
+            </div>
+            <h3><a href="blog-health-benefits.html">The Proven Health Benefits of Professional Air Duct Cleaning</a></h3>
+            <p>Discover how removing allergens, particulate matter, and microbial growth from your ducts can transform your family's health.</p>
+          </div>
+        </div>
+        <div class="blog-card">
+          <div class="blog-card-image">
+            <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80" alt="HVAC system inspection for mold detection" width="600" height="400" loading="lazy">
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-card-meta">
+              <span class="tag">HVAC</span>
+              <span>February 28, 2026</span>
+            </div>
+            <h3><a href="blog-spot-mold-hvac.html">How to Spot Mold in Your HVAC System: A Texas Homeowner's Guide</a></h3>
+            <p>Learn the warning signs of mold in your HVAC system and why Texas humidity makes your home especially vulnerable.</p>
+          </div>
+        </div>
+        <div class="blog-card">
+          <div class="blog-card-image">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=600&q=80" alt="Energy efficient home in Texas with clean HVAC systems" width="600" height="400" loading="lazy">
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-card-meta">
+              <span class="tag">Energy</span>
+              <span>February 10, 2026</span>
+            </div>
+            <h3><a href="blog-energy-saving-tips.html">Energy Saving Tips for Texas Homeowners: How Clean Ducts Cut Costs</a></h3>
+            <p>A clean HVAC system runs up to 20% more efficiently. Here's how regular maintenance saves Texas homeowners hundreds.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" id="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <div class="logo-icon">🌬️</div>
+            Air Duct Cleaning <span>TX</span>
+          </a>
+          <p>Texas's trusted air duct cleaning professionals. NADCA-certified technicians delivering superior indoor air quality across the Lone Star State since 2010.</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">All Services</a></li>
+            <li><a href="air-duct-cleaning.html">Air Duct Cleaning</a></li>
+            <li><a href="dryer-vent-cleaning.html">Dryer Vent Cleaning</a></li>
+            <li><a href="uv-light-installation.html">UV Light Installation</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Service Areas</h4>
+          <ul class="footer-links">
+            <li><a href="dallas.html">Dallas</a></li>
+            <li><a href="houston.html">Houston</a></li>
+            <li><a href="austin.html">Austin</a></li>
+            <li><a href="san-antonio.html">San Antonio</a></li>
+            <li><a href="fort-worth.html">Fort Worth</a></li>
+            <li><a href="arlington.html">Arlington</a></li>
+            <li><a href="plano.html">Plano</a></li>
+            <li><a href="the-woodlands.html">The Woodlands</a></li>
+            <li><a href="sugar-land.html">Sugar Land</a></li>
+            <li><a href="katy.html">Katy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="sitemap-page.html">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Air Duct Cleaning TX. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="disclaimer.html">Disclaimer</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== SCRIPTS ========== -->
+  <script>
+    // Mobile menu toggle
+    const toggle = document.getElementById('mobile-toggle');
+    const nav = document.getElementById('main-nav');
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+      toggle.setAttribute('aria-expanded', nav.classList.contains('active'));
+    });
+
+    // Mobile dropdown toggle
+    document.querySelectorAll('.nav-item').forEach(item => {
+      const link = item.querySelector('.nav-link');
+      if (item.querySelector('.dropdown')) {
+        link.addEventListener('click', (e) => {
+          if (window.innerWidth <= 768) {
+            e.preventDefault();
+            item.classList.toggle('open');
+          }
+        });
+      }
+    });
+
+    // Header scroll effect
+    window.addEventListener('scroll', () => {
+      document.getElementById('site-header').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // FAQ toggle
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        btn.closest('.faq-item').classList.toggle('active');
+      });
+    });
+  </script>
 
 </body>
 </html>
