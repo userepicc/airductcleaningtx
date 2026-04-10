@@ -34,6 +34,7 @@
         .logo { font-weight: bold; font-size: 1.5rem; color: var(--primary); }
 
         nav a { margin-left: 20px; text-decoration: none; color: var(--dark); font-weight: 500; }
+        nav a:hover { color: var(--primary); }
 
         .hero {
             background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1581094288338-2314dddb7bc3?auto=format&fit=crop&q=80&w=1200');
@@ -63,10 +64,7 @@
         footer { background: var(--dark); color: white; padding: 40px 5%; margin-top: 50px; }
 
         .legal-links a { color: #ccc; margin-right: 15px; font-size: 0.9rem; text-decoration: none; }
-        
-        .legal-section { display: none; } /* Hidden by default for single-page feel */
-        .legal-section:target { display: block; }
-        #home:target { display: block; }
+        .legal-links a:hover { color: #fff; }
     </style>
 </head>
 <body>
@@ -74,17 +72,18 @@
     <header>
         <div class="logo">Air Duct Cleaning TX</div>
         <nav>
-            <a href="#services">Services</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
-    <main id="home">
+    <main>
         <section class="hero">
             <h1>Breathe Cleaner Air in Texas</h1>
             <p>Professional air duct and dryer vent cleaning for a healthier home.</p>
-            <a href="tel:5551234567" class="cta-button">Call for a Free Quote</a>
+            <a href="contact.html" class="cta-button">Get a Free Quote</a>
         </section>
 
         <section id="services">
@@ -106,18 +105,6 @@
         </section>
     </main>
 
-    <section id="privacy" class="legal-section">
-        <h2>Privacy Policy</h2>
-        <p>Your privacy is important to us. This policy outlines how we handle your data...</p>
-        <a href="/">Back to Home</a>
-    </section>
-
-    <section id="terms" class="legal-section">
-        <h2>Terms of Service</h2>
-        <p>By using our services, you agree to the following terms and conditions...</p>
-        <a href="/">Back to Home</a>
-    </section>
-
     <footer>
         <div class="grid">
             <div>
@@ -127,9 +114,8 @@
             <div>
                 <h4>Quick Links</h4>
                 <p class="legal-links">
-                    <a href="#privacy">Privacy Policy</a>
-                    <a href="#terms">Terms of Service</a>
-                    <a href="#disclaimer">Disclaimer</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
                 </p>
             </div>
         </div>
